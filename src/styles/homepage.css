@@ -92,7 +92,8 @@
   .banner {
     padding: 30px 20px;
     height: 700px;
-    background-position: top center;
+    background-attachment: initial;
+    background-position: center bottom;
   }
 
   .banner-head {
