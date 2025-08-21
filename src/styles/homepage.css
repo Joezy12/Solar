@@ -1,0 +1,174 @@
+.banner {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(2, 43, 2, 0.6) 30%, transparent), url("https://static.vecteezy.com/system/resources/previews/028/533/381/large_2x/engineer-installing-solar-panels-on-the-roof-electrical-technician-at-work-generative-ai-free-photo.jpeg");
+  background-size: cover;
+  padding: 30px 40px;
+  background-attachment: fixed;
+}
+
+.banner-head {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner-head h4 {
+  color: #89EA5F;
+}
+
+.banner-head h1 {
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 50px;
+}
+
+.banner-head h1 span {
+  color: #89EA5F;
+}
+
+.banner-head p {
+  color: rgba(255, 255, 255, 0.678);
+  line-height: 30px;
+}
+
+.banner-button {
+  display: flex;
+  gap: 20px;
+}
+
+.banner-button button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  background-color: #89EA5F;
+  font-weight: 600;
+}
+
+.banner-button .con-but {
+  background-color: transparent;
+  color: #89EA5F;
+  border: 2px solid #89EA5F;
+}
+
+
+.solar-svg {
+  background-color: #1F242C;
+  color: white;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.svg {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.svg-write h1 {
+  font-size: 20px;
+}
+
+.svg-write p {
+  line-height: 22px;
+  font-size: 15px;
+}
+
+.svg-img img {
+  width: 70px;
+
+}
+
+.svg-write {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .banner {
+    padding: 30px 20px;
+    height: 700px;
+    background-position: center;
+  }
+
+  .banner-head {
+    width: 100%;
+  }
+
+  .solar-svg {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .solar-svg div:nth-child(3),
+  .solar-svg div:nth-child(4) {
+    margin-top: 100px;
+  }
+
+  .svg {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .banner-head h1 {
+    font-size: 30px;
+  }
+
+  .banner-head p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .banner {
+    padding: 30px 10px;
+    height: 620px;
+  }
+
+  .solar-svg {
+    display: flex;
+    flex-wrap:initial;
+    flex-direction: column;
+    gap: 3rem;
+     padding: 50px 20px;
+
+  }
+
+  .solar-svg div:nth-child(3),
+  .solar-svg div:nth-child(4) {
+    margin-top: 0px;
+  }
+
+  .svg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .svg-write p{
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .banner-head h1 {
+    font-size: 24px;
+  }
+
+  .banner-head p {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .banner {
+    padding: 30px 10px;
+    height: 530px;
+  }
+}

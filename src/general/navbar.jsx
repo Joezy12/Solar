@@ -1,0 +1,39 @@
+import "../styles/navbar.css"
+import logo from "../../public/logo.png"
+
+
+function Navbar() {
+    return (
+        <>
+            <nav className="navbar">
+                <div className="nav-top">
+                    <div className="n-top-left">
+                        <p><i className="bi-envelope"></i>solar@gmail.com</p>
+                        <p><i className="bi-telephone"></i>+234 7049311985</p>
+                    </div>
+                    <div className="n-top-right">
+                        <p><i className="bi-facebook"></i></p>
+                        <p><i className="bi-twitter"></i></p>
+                        <p><i className="bi-linkedin"></i></p>
+                        <p><i className="bi-instagram"></i></p>
+                    </div>
+                </div>
+                <div className="nav-main">
+                 <img src={logo}/>
+                 <div className="n-main-right">
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Services <i className="bi-chevron-down"></i></p>
+                    <p>Projects <i className="bi-chevron-down"></i></p>
+                    <p>Pages<i className="bi-chevron-down"></i></p>
+                    <p>Blog</p>
+                    <button>contact us</button>
+                    <button className="lister"><i className="bi-list"></i></button>
+                 </div>
+                </div>
+            </nav>
+        </>
+    )
+}
+
+export default Navbar;

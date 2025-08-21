@@ -1,0 +1,145 @@
+
+
+
+
+.nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+}
+
+.n-top-left {
+    display: flex;
+    gap: 20px;
+}
+
+.n-top-right {
+    display: flex;
+    gap: 20px;
+}
+
+.n-top-right p {
+    width: 25px;
+    height: 25px;
+    background-color: #89EA5F;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.n-top-left i {
+    color: #89EA5F;
+}
+
+.n-top-left p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-main img {
+   width: 100px;
+   height: 30px;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.n-main-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.n-main-right button {
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: #89EA5F;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.n-main-right p {
+    font-size: 15px;
+}
+
+.lister {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .n-main-right p {
+    display: none;
+}
+
+.n-main-right button {
+    display: none;
+}
+.n-main-right .lister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+    .n-main-right p {
+    display: none;
+}
+.n-top-right {
+    display: none;
+}
+
+.nav-main {
+    padding: 20px 15px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    .n-main-right p {
+    display: none;
+}
+.n-top-right {
+    display: none;
+}
+
+.nav-main {
+    padding: 20px 15px;
+}
+
+.nav-main img {
+   width: 80px;
+   height: 24px;
+}
+
+.n-main-right .lister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+}
