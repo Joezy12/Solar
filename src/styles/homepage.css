@@ -92,7 +92,7 @@
   .banner {
     padding: 30px 20px;
     height: 700px;
-    background-position: center;
+    background-position: top center;
   }
 
   .banner-head {
@@ -127,15 +127,15 @@
 
   .banner {
     padding: 30px 10px;
-    height: 620px;
+    height: 600px;
   }
 
   .solar-svg {
     display: flex;
-    flex-wrap:initial;
+    flex-wrap: initial;
     flex-direction: column;
     gap: 3rem;
-     padding: 50px 20px;
+    padding: 50px 20px;
 
   }
 
@@ -151,8 +151,15 @@
     text-align: center;
   }
 
-  .svg-write p{
+  .svg-write p {
     font-size: 18px;
+  }
+
+  .banner-button button {
+    width: 150px;
+    height: 46px;
+   
+    font-size: 14px;
   }
 }
 

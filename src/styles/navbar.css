@@ -55,6 +55,7 @@
     padding: 20px 30px;
     border-radius: 20px;
     margin-top: 20px;
+   
 }
 
 .n-main-right {
@@ -112,6 +113,10 @@
 
 .nav-main {
     padding: 20px 15px;
+}
+
+.n-top-left p {
+   font-size: 14px;
 }
 }
 
