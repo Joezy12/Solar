@@ -50,7 +50,7 @@ function Homepage() {
           </div>
         </div>
 
-      
+
         <div className="svg">
           <div className="svg-img">
             <img src={light} alt="" />
@@ -61,7 +61,7 @@ function Homepage() {
           </div>
         </div>
 
-         <div className="svg">
+        <div className="svg">
           <div className="svg-img">
             <img src={go} alt="" />
           </div>
@@ -71,12 +71,28 @@ function Homepage() {
           </div>
         </div>
 
-
-        
-
+      </section>
 
 
+      <section className="introduce">
+        <div className="intro-img">
 
+        </div>
+        <div className="intro-content">
+          <h1>Introducing Our New Gospower GPEX-12KH3 hybrid inverter</h1>
+          <p>Gospower GPEX-12KH3 hybrid inverter is a high-performance three-phase energy controller with excellent reliability.Built-in BMS communication makes it more smart and intelligent.</p>
+          <div className="rev-stars">
+            <i className="bi-star-fill"></i>
+            <i className="bi-star-fill"></i>
+            <i className="bi-star-fill"></i>
+            <i className="bi-star-fill"></i>
+            <i className="bi-star-fill"></i>
+          </div>
+          <div className="add-btn">
+            <button className="add-cart">Add to cart</button>
+             <button className="add-cart">View more products </button>
+          </div>
+        </div>
 
       </section>
     </div>

@@ -88,6 +88,84 @@
   gap: 15px;
 }
 
+
+
+.introduce {
+  margin-top: 50px;
+  display: flex;
+  gap: 3rem;
+  padding: 0px 100px;
+}
+
+.intro-img {
+  width: 50%;
+  height: 400px;
+  
+  background: url("https://bigworldsolar.com/wp-content/uploads/2024/09/hy5.jpg");
+  background-size: cover;
+  background-position: center;
+  animation: spin 1.3s ease-in-out infinite;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.intro-content h1 {
+  font-size: 40px;
+}
+
+.rev-stars{
+  display: flex;
+  gap: 1rem;
+  font-size: 30px;
+  color: yellow;
+}
+
+.add-cart {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid rgba(2, 43, 2, 0.6);
+}
+
+
+
+.add-btn {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+
+.intro-content p{
+  line-height: 26px;
+  width: 80%;
+}
+
+@keyframes spin {
+  0%{transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100%{transform: scale(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1100px) {
   .banner {
     padding: 30px 20px;
@@ -115,6 +193,9 @@
     width: 50%;
   }
 }
+
+
+
 
 @media screen and (max-width: 900px) {
   .banner-head h1 {
@@ -162,6 +243,29 @@
    
     font-size: 14px;
   }
+
+  .introduce {
+  margin-top: 80px;
+  display: flex;
+  gap: 3rem;
+  padding: 0px 20px;
+  flex-direction: column;
+}
+
+.intro-img {
+  width: 100%;
+  height: 350px;
+}
+
+.intro-content h1 {
+  font-size: 30px;
+ 
+}
+
+.intro-content p {
+  width: 100%;
+}
+
 }
 
 
