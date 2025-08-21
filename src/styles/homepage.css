@@ -91,10 +91,13 @@
 
 
 .introduce {
-  margin-top: 50px;
+  padding: 50px;
   display: flex;
   gap: 3rem;
-  padding: 0px 100px;
+  padding: 50px 100px;
+   background: url("https://static.vecteezy.com/system/resources/previews/010/816/574/non_2x/technology-background-modern-abstract-luxury-geometric-shape-premium-wallpaper-for-template-backdrop-brochure-poster-website-or-banner-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .intro-img {
@@ -250,6 +253,9 @@
   gap: 3rem;
   padding: 0px 20px;
   flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .intro-img {
