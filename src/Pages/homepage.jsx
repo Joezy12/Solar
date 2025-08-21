@@ -90,10 +90,37 @@ function Homepage() {
           </div>
           <div className="add-btn">
             <button className="add-cart">Add to cart</button>
-             <button className="add-cart">View more products </button>
+            <button className="add-cart">View more products </button>
           </div>
         </div>
 
+      </section>
+
+
+      <section className="work-process">
+        <div className="pro-line">
+          <h1>PROCCESS</h1>
+        </div>
+        <div className="pro-head">
+          <h1>OUR WORK PROCESS</h1>
+          <p>Contact us today to learn more about the partners we work with, or for more information
+            regarding our process and services. We appreciate your consideration.</p>
+        </div>
+        <div className="pro-arrows">
+          <h1>01<br/><span>Prepare Project</span></h1>
+          <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
+          <h1>02 <br/><span>Accompanying Docs</span></h1>
+          <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
+          <h1>03  <br/><span>Location exploration</span></h1>
+          <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
+          <h1>04  <br/><span>Equipment Installation</span></h1>
+        </div>
+        <div className="pro-write">
+          <h1>Prepare Project</h1>
+          <h1>Accompanying Docs</h1>
+          <h1>Location <br/>exploration</h1>
+          <h1>Equipment <br/>Installation</h1>
+        </div>
       </section>
     </div>
   )
