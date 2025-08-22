@@ -18,7 +18,7 @@ function Homepage() {
         <Navbar />
         <div className="banner-head">
           <h4>WELCOME TO SOLAR ENERGY AND POWER</h4>
-          <h1>LET SOLAR HANDLE YOUR <span> BILLS</span></h1>
+          <h1>Powering the Future With<span> Renewable </span></h1>
           <p>Duis ultricies, tortor a accumsan fermentum, purus diam mollis velit, eu bibendum ipsum erat quis leo. Vestibulum finibus, leo dapibus feugiat rutrum, augue lacus rhoncus velit, vel scelerisque odio est.</p>
           <div className="banner-button">
             <button>Order Now</button>
@@ -107,19 +107,32 @@ function Homepage() {
             regarding our process and services. We appreciate your consideration.</p>
         </div>
         <div className="pro-arrows">
-          <h1>01<br/><span>Prepare Project</span></h1>
+          <h1>01<br /><span>Prepare Project</span></h1>
           <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
-          <h1>02 <br/><span>Accompanying Docs</span></h1>
+          <h1>02 <br /><span>Accompanying Docs</span></h1>
           <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
-          <h1>03  <br/><span>Location exploration</span></h1>
+          <h1>03  <br /><span>Location exploration</span></h1>
           <img src="https://bigworldsolar.com/wp-content/uploads/2021/08/bg-process.png" alt="" />
-          <h1>04  <br/><span>Equipment Installation</span></h1>
+          <h1>04  <br /><span>Equipment Installation</span></h1>
         </div>
         <div className="pro-write">
           <h1>Prepare Project</h1>
           <h1>Accompanying Docs</h1>
-          <h1>Location <br/>exploration</h1>
-          <h1>Equipment <br/>Installation</h1>
+          <h1>Location <br />exploration</h1>
+          <h1>Equipment <br />Installation</h1>
+        </div>
+      </section>
+
+      <section className="watch">
+        <div className="watch-head"><h1>Best Solar Distributors</h1></div>
+        <div className="watch-vid">
+          <div className="watch-box">
+            <div className="vid-circle circ"></div>
+            <div className="vid-circle circ2"></div>
+            <div className="vid-circle">
+              <i className="bi-play"></i>
+            </div>
+          </div>
         </div>
       </section>
     </div>
