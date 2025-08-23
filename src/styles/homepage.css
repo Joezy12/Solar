@@ -391,9 +391,104 @@
   width: 70%;
 }
 
+.new-product {
+  padding: 60px 70px;
+}
 
 
 
+.new-head h1 {
+  text-align: center;
+}
+
+
+.new-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.new-box {
+  width: 100%;
+  text-align: center;
+}
+
+.new-pic {
+  width: 100%;
+  height: 260px;
+  background: url("https://buysolaronline.com.ng/wp-content/uploads/2025/01/100A-122448V-With-245V-Input-MPPT-Solar-Charge-Controller-300x300.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.new-pic2 {
+  background: url("https://buysolaronline.com.ng/wp-content/uploads/2025/01/12V100AH-Novel-SMF-Battery-300x300.png");
+}
+
+.new-pic3 {
+  background: url("https://buysolaronline.com.ng/wp-content/uploads/2025/01/12V200AH-Novel-SMF-Battery-300x300.png");
+}
+
+.new-pic4 {
+  background: url("https://buysolaronline.com.ng/wp-content/uploads/2025/01/Novelsolar-PTZ-Outdoor-camera-Light-grey-300x300.png");
+}
+
+.new-box p {
+  font-size: 10px;
+  margin-top: 12px;
+}
+
+.new-write {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.new-write  h2 {
+  font-size: 15px;
+  color: #444444;
+}
+
+.new-rating {
+  display: flex;
+  gap: 7px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #D3D3D3;
+}
+
+
+.new-add-cart {
+  width: 120px;
+  border: none;
+  height: 37px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #F4F4F4;
+  font-weight: 600;
+}
+
+
+.new-buy-button {
+  width: 100px;
+  border: none;
+  height: 35px;
+  font-size: 12px;
+  background: #57B33E;
+  color: white;
+  font-weight: 600;
+}
+
+.new-write h1 {
+  font-size: 20px;
+  color: #444444;
+}
 
 
 
@@ -437,6 +532,26 @@
 
 
 @media screen and (max-width: 900px) {
+
+  .new-product {
+  padding: 60px 20px;
+}
+
+.new-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+
+.new-box {
+  flex: 0 0 auto;
+  width: 80%;
+}
+
+
   .banner-head h1 {
     font-size: 37px;
   }

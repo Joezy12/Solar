@@ -15,7 +15,7 @@ function Homepage(prop) {
   return (
     <div className="homepage">
       <div className="banner">
-        <Navbar openNav={prop.openNav}/>
+        <Navbar openNav={prop.openNav} />
         <div className="banner-head">
           <h4>WELCOME TO SOLAR ENERGY AND POWER</h4>
           <h1>Powering the Future With<span> Renewable </span></h1>
@@ -97,6 +97,89 @@ function Homepage(prop) {
       </section>
 
 
+
+      <section className="new-product">
+        <div className="new-head"><h1>BEST SELLING PRODUCTS</h1></div>
+        <div className="new-container">
+
+
+          <div className="new-box">
+            <div className="new-pic"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic2"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N150,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic3"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic4"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N120,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+
+
       <section className="work-process">
         <div className="pro-line">
           <h1>PROCCESS</h1>
@@ -137,20 +220,20 @@ function Homepage(prop) {
 
         <div className="best">
           <div className="best-left">
-           <h3>SOLAR ENERGY AND POWER</h3>
-           <h1>Best Solution For Your Solar Energy</h1>
-           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <h3>SOLAR ENERGY AND POWER</h3>
+            <h1>Best Solution For Your Solar Energy</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
           <div className="best-right">
             <div className="best-load">
               <p>Solar Panels <span>95%</span></p>
               <div className="best-load-bar"><div className="best-load-in"></div></div>
             </div>
-             <div className="best-load">
+            <div className="best-load">
               <p>Hybrid Energy <span>80%</span></p>
               <div className="best-load-bar"><div className="best-load-in load2"></div></div>
             </div>
-             <div className="best-load">
+            <div className="best-load">
               <p>Marketing <span>70%</span></p>
               <div className="best-load-bar"><div className="best-load-in load3"></div></div>
             </div>
