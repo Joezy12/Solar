@@ -8,14 +8,14 @@ import traffic from "../../public/traffic.svg"
 import light from "../../public/light.svg"
 
 
-function Homepage() {
+function Homepage(prop) {
 
 
 
   return (
     <div className="homepage">
       <div className="banner">
-        <Navbar />
+        <Navbar openNav={prop.openNav}/>
         <div className="banner-head">
           <h4>WELCOME TO SOLAR ENERGY AND POWER</h4>
           <h1>Powering the Future With<span> Renewable </span></h1>

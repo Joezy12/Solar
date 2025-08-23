@@ -2,7 +2,7 @@ import "../styles/navbar.css"
 import logo from "../../public/logo.png"
 
 
-function Navbar() {
+function Navbar(props) {
     return (
         <>
             <nav className="navbar">
@@ -28,7 +28,7 @@ function Navbar() {
                     <p>Pages<i className="bi-chevron-down"></i></p>
                     <p>Blog</p>
                     <button>contact us</button>
-                    <button className="lister"><i className="bi-list"></i></button>
+                    <button className="lister" onClick={props.openNav}><i className="bi-list"></i></button>
                  </div>
                 </div>
             </nav>
