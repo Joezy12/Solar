@@ -134,6 +134,30 @@ function Homepage() {
             </div>
           </div>
         </div>
+
+        <div className="best">
+          <div className="best-left">
+           <h3>SOLAR ENERGY AND POWER</h3>
+           <h1>Best Solution For Your Solar Energy</h1>
+           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          </div>
+          <div className="best-right">
+            <div className="best-load">
+              <p>Solar Panels <span>95%</span></p>
+              <div className="best-load-bar"><div className="best-load-in"></div></div>
+            </div>
+             <div className="best-load">
+              <p>Hybrid Energy <span>80%</span></p>
+              <div className="best-load-bar"><div className="best-load-in load2"></div></div>
+            </div>
+             <div className="best-load">
+              <p>Marketing <span>70%</span></p>
+              <div className="best-load-bar"><div className="best-load-in load3"></div></div>
+            </div>
+          </div>
+        </div>
+
+
       </section>
     </div>
   )
