@@ -1,0 +1,241 @@
+
+.about-banner {
+    padding: 30px 40px;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://img.freepik.com/premium-photo/solar-panel-generates-clean-energy-agriculture-generated-by-ai_188544-44090.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.about-banner-write {
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-banner-write h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 60px;
+}
+
+.about-banner-write h4 {
+    font-size: 20px;
+}
+
+.about-banner-write p {
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+.about-main {
+   padding: 60px 40px;
+    display: flex;
+    gap: 4rem;
+    
+    
+}
+
+
+.about-m-left {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+
+.about-m-right {
+    width: 100%;
+}
+
+.a-b-dot {
+    position: absolute;
+    width: initial;
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(320px, 0px);
+}
+
+.a-b-dot2 {
+    width: 300px;
+    height: 150px;
+    background: url("https://edwell.org.in/wp-content/uploads/2023/03/h1-section-shape1.png");
+    background-size: cover;
+}
+
+.a-b-line {
+    position: absolute;
+    width: 400px;
+    border: 10px solid #EEEEEE;
+    height: 400px;
+    margin-top: 130px;
+}
+
+
+.a-b-pic {
+    position: relative;
+    width: 400px;
+    height: 550px;
+   
+    margin: 0 auto;
+    background: url("https://shop.arnergy.com/cdn/shop/articles/african-engineer-man-screwdriver-solar-panel-roof-maintenance-industry-thinking-city-technician-builder-tools-photovoltaic-tech-helmet-sustainable-renewable-energy_1800x1357_crop_center.jpg?v=1703592223");
+    margin-top: 40px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: -250px center;
+
+}
+
+.about-m-right {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.about-m-right h1 {
+    font-size: 120px;
+    font-weight: 1000;
+    position: absolute;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.about-m-right h2 {
+    margin-top: 80px;
+    font-size: 48px;
+   font-family: "Rajdhani", sans-serif;
+   line-height: 50px;
+}
+
+.about-m-right p {
+    line-height: 30px;
+}
+
+.done-container {
+    display: flex;
+    flex-wrap: wrap;
+     gap: 1rem;
+     margin-top: 30px;
+}
+
+.done-box {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  background: #F8F8F8;
+  padding: 15px 15px;
+  gap: 10px;
+}
+
+.done-box div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #57B33E;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+.about-banner {
+    padding: 30px 20px;
+}
+
+.about-main {
+   padding: 60px 20px;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    
+}
+
+.a-b-dot {
+    transform: translate(0,0);
+}
+
+.a-b-pic {
+    position: relative;
+    width: 100%;
+    height: 400px;
+   
+    margin: 0 auto;
+    background: url("https://shop.arnergy.com/cdn/shop/articles/african-engineer-man-screwdriver-solar-panel-roof-maintenance-industry-thinking-city-technician-builder-tools-photovoltaic-tech-helmet-sustainable-renewable-energy_1800x1357_crop_center.jpg?v=1703592223");
+    margin-top: 40px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: -150px center;
+
+}
+
+.a-b-line {
+    display: none;
+}
+
+.about-m-right h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    position: initial;
+
+}
+
+.about-m-left {
+    height: fit-content;
+}
+
+.about-m-right h2 {
+    margin-top:0px;
+    font-size: 37px;
+   font-family: "Rajdhani", sans-serif;
+   line-height: 40px;
+}
+
+
+.done-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+     gap: 1rem;
+     margin-top: 30px;
+}
+
+.done-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #F8F8F8;
+  padding: 15px 15px;
+  gap: 10px;
+}
+
+.done-box div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #57B33E;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+}

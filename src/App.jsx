@@ -3,7 +3,8 @@ import Navbar from "./general/navbar";
 import Homepage from "./Pages/homepage";
 import { useState } from "react";
 import Footer from "./general/footer";
-
+import Aboutus from "./Pages/aboutus";
+import { NavLink } from "react-router-dom";
 
 function App() {
      const [navOpen, setNavOpen] = useState(false);
@@ -22,8 +23,8 @@ function App() {
           <button onClick={openNav}>x</button>
         </div>
         <div className="p-nav-links">
-          <p>Home <i className="bi-chevron-down"></i></p>
-          <p>About Us<i className="bi-chevron-down"></i></p>
+          <NavLink className="link" to=".." onClick={openNav}><p>Home <i className="bi-chevron-down"></i></p></NavLink>
+          <NavLink className="link" to="../aboutus" onClick={openNav}><p>About Us<i className="bi-chevron-down"></i></p></NavLink>
           <p>Services <i className="bi-chevron-down"></i></p>
           <p>Products <i className="bi-chevron-down"></i></p>
           <p>Blog <i className="bi-chevron-down"></i></p>
@@ -32,6 +33,7 @@ function App() {
       </nav>
       <Routes>
         <Route index element={<Homepage openNav={openNav}/>} />
+        <Route path="aboutus" element={<Aboutus openNav={openNav}/>}/>
       </Routes>
       <Footer/>
     </>

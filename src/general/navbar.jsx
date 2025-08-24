@@ -1,5 +1,6 @@
 import "../styles/navbar.css"
 import logo from "../../public/logo.png"
+import { NavLink } from "react-router-dom";
 
 
 function Navbar(props) {
@@ -21,8 +22,8 @@ function Navbar(props) {
                 <div className="nav-main">
                  <img src={logo}/>
                  <div className="n-main-right">
-                    <p>Home</p>
-                    <p>About Us</p>
+                   <NavLink className="link" to=".."><p>Home</p></NavLink> 
+                     <NavLink className="link" to="../aboutus"><p>About Us</p></NavLink> 
                     <p>Services <i className="bi-chevron-down"></i></p>
                     <p>Projects <i className="bi-chevron-down"></i></p>
                     <p>Pages<i className="bi-chevron-down"></i></p>
