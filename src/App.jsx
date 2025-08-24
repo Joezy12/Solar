@@ -5,6 +5,7 @@ import { useState } from "react";
 import Footer from "./general/footer";
 import Aboutus from "./Pages/aboutus";
 import { NavLink } from "react-router-dom";
+import Cart from "./Pages/cart";
 
 function App() {
      const [navOpen, setNavOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
      }
   return (
     <>
+    <Cart/>
       <nav className="phone-nav" style={navStyle}>
         <div className="cancel">
           <button onClick={openNav}>x</button>

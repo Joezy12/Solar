@@ -184,6 +184,70 @@ function Homepage(prop) {
       </section>
 
 
+       <div className="about-review">
+                    <div className="about-r-head">
+                        <p>Testimonials</p>
+                        <h1>Words From Our Customers</h1>
+                    </div>
+                    <div className="a-b-r-container">
+                        <div className="a-b-r-box">
+                            <div>
+                                <div className="a-b-r-pic"></div>
+                                <h1>Victor Jonathan</h1>
+                                <p>(Customer)</p>
+                                <div className="a-b-r-stars">
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Solar energy and power has been the best thing that has ever happened to me cause since I started using their product, I have never had any issues with electricity
+                                </p>
+                            </div>
+                        </div>
+
+
+                         <div className="a-b-r-box">
+                            <div>
+                                <div className="a-b-r-pic ar2"></div>
+                                <h1>Oghechi Benard</h1>
+                                <p>(Customer)</p>
+                                <div className="a-b-r-stars">
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Solar energy and power has been the best thing that has ever happened to me cause since I started using their product, I have never had any issues with electricity
+                                </p>
+                            </div>
+                        </div>
+
+                         <div className="a-b-r-box">
+                            <div>
+                                <div className="a-b-r-pic ar3"></div>
+                                <h1>Ahmed Waisiu</h1>
+                                <p>(Customer)</p>
+                                <div className="a-b-r-stars">
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                    <i className="bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    Solar energy and power has been the best thing that has ever happened to me cause since I started using their product, I have never had any issues with electricity
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
       <section className="work-process">
         <div className="pro-line">
           <h1>PROCCESS</h1>
