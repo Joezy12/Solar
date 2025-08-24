@@ -490,6 +490,20 @@
   color: #444444;
 }
 
+.see-all {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.see-all button {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
 
 
 

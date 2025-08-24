@@ -8,6 +8,7 @@ import traffic from "../../public/traffic.svg"
 import light from "../../public/light.svg"
 
 
+
 function Homepage(prop) {
 
 
@@ -175,7 +176,10 @@ function Homepage(prop) {
             </div>
           </div>
 
-          
+
+        </div>
+        <div className="see-all">
+          <button>See All Products</button>
         </div>
       </section>
 

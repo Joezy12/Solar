@@ -1,0 +1,178 @@
+.footer {
+    background: #1F232C;
+    color: white;
+    padding: 0px 80px 40px 80px;
+}
+
+
+.footer-top-bar {
+    display: flex;
+    background-color: #49c427;
+    gap: 20px;
+    padding: 40px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.f-top-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+}
+
+.f-box-right h1 {
+    font-size: 17px;
+}
+
+.f-box-left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc6c6a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-main {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+    padding: 50px 0px;
+}
+
+.footer-boxes {
+    width: 100%;
+}
+
+.f-head h1 {
+    opacity: 0.9;
+    line-height: 30px;
+}
+
+.f-head p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+.f-services {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.f-services h1 {
+    font-size: 20px;
+}
+
+.f-services p {
+    font-size: 15px;
+    color: #F1FFFF;
+    font-weight: 600;
+    opacity: 0.7;
+
+}
+
+
+.f-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.f-blog h1 {
+    font-size: 20px;
+}
+
+.f-blog-box {
+    display: flex;
+    gap: 10px;
+}
+
+.f-blog-pic {
+    width: 120px;
+    height: 70px;
+    background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog5-150x150.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    background-position: center;
+}
+
+.f-blog-box .b-pic-2 {
+    background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog4-150x150.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.f-blog-write p {
+    font-size: 12px;
+}
+
+.f-blog-write h1 {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+.f-last-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-last-box input{
+    height: 50px;
+    background-color: transparent;
+    padding: 0px 30px;
+    border: 1px solid rgba(209, 203, 203, 0.199);
+    border-radius: 7px;
+    color: white;
+}
+
+.f-last-box button {
+   background-color: #FF7029;
+   color: white;
+   height: 60px;
+   border: none;
+   border-radius: 5px;
+}
+
+.f-last-box p {
+    line-height: 25px;
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 900px) {
+  .footer-top-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #49c427;
+    gap: 20px;
+    padding: 40px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.footer-main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.footer {
+    background: #1F232C;
+    color: white;
+    padding: 0px 20px 40px 20px;
+}
+}

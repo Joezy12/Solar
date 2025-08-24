@@ -2,6 +2,7 @@ import { Routes, Route} from "react-router-dom"
 import Navbar from "./general/navbar";
 import Homepage from "./Pages/homepage";
 import { useState } from "react";
+import Footer from "./general/footer";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage openNav={openNav}/>} />
       </Routes>
+      <Footer/>
     </>
   )
 }
