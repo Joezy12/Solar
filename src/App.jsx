@@ -6,6 +6,7 @@ import Footer from "./general/footer";
 import Aboutus from "./Pages/aboutus";
 import { NavLink } from "react-router-dom";
 import Cart from "./Pages/cart";
+import Products from "./Pages/products";
 
 function App() {
      const [navOpen, setNavOpen] = useState(false);
@@ -27,8 +28,8 @@ function App() {
         <div className="p-nav-links">
           <NavLink className="link" to=".." onClick={openNav}><p>Home <i className="bi-chevron-down"></i></p></NavLink>
           <NavLink className="link" to="../aboutus" onClick={openNav}><p>About Us<i className="bi-chevron-down"></i></p></NavLink>
+          <NavLink className="link" to="../products" onClick={openNav}><p>Products <i className="bi-chevron-down"></i></p></NavLink>
           <p>Services <i className="bi-chevron-down"></i></p>
-          <p>Products <i className="bi-chevron-down"></i></p>
           <p>Blog <i className="bi-chevron-down"></i></p>
           <p>Contact Us <i className="bi-chevron-down"></i></p>
         </div>
@@ -36,6 +37,7 @@ function App() {
       <Routes>
         <Route index element={<Homepage openNav={openNav}/>} />
         <Route path="aboutus" element={<Aboutus openNav={openNav}/>}/>
+        <Route path="products" element={<Products openNav={openNav}/>} />
       </Routes>
       <Footer/>
     </>

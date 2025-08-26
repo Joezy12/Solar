@@ -24,7 +24,7 @@ function Navbar(props) {
                  <div className="n-main-right">
                    <NavLink className="link" to=".."><p>Home</p></NavLink> 
                      <NavLink className="link" to="../aboutus"><p>About Us</p></NavLink> 
-                    <p>Products <i className="bi-chevron-down"></i></p>
+                   <NavLink className="link" to="../products"> <p>Products <i className="bi-chevron-down"></i></p></NavLink>
                     <p>Projects <i className="bi-chevron-down"></i></p>
                     <p>Contact Us</p>
                     <p>Blog</p>
