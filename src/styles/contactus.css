@@ -1,0 +1,200 @@
+.contactus-banner {
+  padding: 30px 40px;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.tatapowersolar.com/wp-content/uploads/2018/02/03122154/Contact-Us-mob.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contactus-write {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactus-write h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 60px;
+}
+
+.contactus-write h4 {
+  font-size: 20px;
+}
+
+.contactus-write p {
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+
+.contact-d-container {
+  padding: 60px 40px;
+}
+
+.contact-d-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 13px;
+}
+
+.contact-d-head p {
+  color: #49C427;
+  font-weight: 800;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.contact-d-head h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 41px;
+  color: #163300;
+}
+
+.contact-main {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.contact-box {
+  width: 100%;
+  height: 370px;
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 17px;
+  background: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/location-img.jpg");
+  background-size: cover;
+}
+
+.c-box2 {
+  background: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/email-img.jpg");
+  background-size: cover;
+}
+
+
+.c-box3 {
+  background: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/phone-img.jpg");
+  background-size: cover;
+}
+
+.c-box4 {
+  background: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/follow-img.jpg");
+  background-size: cover;
+}
+
+
+.contact-m-bottom {
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.contact-m-bottom h2 {
+  font-size: 19px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.contact-m-bottom p {
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact-m-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.contact-svg {
+  background-color: #89EA5F;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.c-follow-box {
+  display: flex;
+  gap: 1rem;
+  padding: 10px 0px;
+
+}
+
+.c-follow-icon {
+  width: 33px;
+  height: 33px;
+  background: #89EA5F;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #2D4719;
+}
+
+@media screen and (max-width: 900px) {
+  .contactus-write h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 40px;
+  }
+
+
+
+  .contactus-banner {
+    padding: 30px 20px;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.tatapowersolar.com/wp-content/uploads/2018/02/03122154/Contact-Us-mob.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+  }
+
+  .contact-d-head p {
+    font-size: 18px;
+  }
+
+  .contact-d-head h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 30px;
+    color: #163300;
+  }
+
+  .contact-d-head br {
+    display: none;
+  }
+
+  .contact-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.contact-d-container {
+  padding: 60px 20px;
+}
+
+.contact-box {
+  width: 100%;
+  height: 400px;
+
+
+}
+}
