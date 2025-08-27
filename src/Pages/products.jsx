@@ -63,6 +63,268 @@ function Products(prop) {
 
 
 
+
+            <section className="new-product">
+        <div className="new-head"><h1>BEST SELLING PRODUCTS</h1></div>
+        <div className="new-container">
+
+
+          <div className="new-box">
+            <div className="new-pic"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic2"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N150,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic3"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic4"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N120,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+
+        </div>
+      
+      </section>
+
+
+
+
+
+
+
+
+      <section className="new-product">
+        <div className="new-head"><h1>BEST SELLING PRODUCTS</h1></div>
+        <div className="new-container">
+
+
+          <div className="new-box">
+            <div className="new-pic"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic2"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N150,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic3"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic4"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N120,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+
+        </div>
+        
+      </section>
+
+
+
+
+
+      <section className="new-product">
+        <div className="new-head"><h1>BEST SELLING PRODUCTS</h1></div>
+        <div className="new-container">
+
+
+          <div className="new-box">
+            <div className="new-pic"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic2"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N150,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic3"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N325,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+          <div className="new-box">
+            <div className="new-pic new-pic4"></div>
+            <div className="new-write">
+              <p>CHARGE CONTROLLER</p>
+              <h2>100A 12/24/48V With 245V Input MPP</h2>
+              <div className="new-rating">
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+                <i className="bi-star-fill"></i>
+              </div>
+              <h1>N120,000.00</h1>
+              <button className="new-add-cart"><i className="bi-bag"></i>ADD TO CART</button>
+              <button className="new-buy-button">Buy now</button>
+            </div>
+          </div>
+
+
+        </div>
+        <div className="see-all">
+          <button>See All Products</button>
+        </div>
+      </section>
+
+
+
         </div>
     )
 }
