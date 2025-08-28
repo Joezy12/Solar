@@ -5,7 +5,7 @@ function ContactUS(prop) {
     return (
         <>
             <div className="contactus-banner">
-                <Navbar openNav={prop.openNav}/>
+                <Navbar openNav={prop.openNav} />
                 <div className="products-banner-write">
                     <h1>CONTACT US NOW</h1>
                     <p>Read about our orginazation and what we offer to keep your electricity runnig, <br /> we are here to serve your our premiumn feautures</p>
@@ -65,12 +65,35 @@ function ContactUS(prop) {
                         <div className="contact-m-bottom">
                             <h2>Follow Us:</h2>
                             <div className="c-follow-box">
-                             <div className="c-follow-icon"><i className="bi-facebook"></i></div>
-                             <div className="c-follow-icon"><i className="bi-twitter"></i></div>
-                             <div className="c-follow-icon"><i className="bi-instagram"></i></div>
-                             <div className="c-follow-icon"><i className="bi-linkedin"></i></div>
+                                <div className="c-follow-icon"><i className="bi-facebook"></i></div>
+                                <div className="c-follow-icon"><i className="bi-twitter"></i></div>
+                                <div className="c-follow-icon"><i className="bi-instagram"></i></div>
+                                <div className="c-follow-icon"><i className="bi-linkedin"></i></div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="in-touch-container">
+                <div className="in-touch-box">
+                    <div className="in-touch-head">
+                        <p>contact now</p>
+                        <h1>Get In Touch With Us</h1>
+                    </div>
+                    <div className="in-touch-line">
+                        <input placeholder="Name" />
+                        <input placeholder="Email" />
+                    </div>
+                    <div className="in-touch-line">
+                        <input placeholder="Phone" />
+                        <input placeholder="Subject" />
+                    </div>
+                    <div className="big-input">
+                      <textarea name="" id="" placeholder="Write a Message"/>
+                    </div>
+                    <div className="in-touch-submit">
+                        <button>Submit Now</button>
                     </div>
                 </div>
             </div>

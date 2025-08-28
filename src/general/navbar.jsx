@@ -25,7 +25,7 @@ function Navbar(props) {
                    <NavLink className="link" to=".."><p>Home</p></NavLink> 
                      <NavLink className="link" to="../aboutus"><p>About Us</p></NavLink> 
                    <NavLink className="link" to="../products"> <p>Products <i className="bi-chevron-down"></i></p></NavLink>
-                    <p>Projects <i className="bi-chevron-down"></i></p>
+                    
                     <NavLink className="link" to="../contactus"><p>Contact Us</p></NavLink>
                     <p>Blog</p>
                     <button>contact us</button>
