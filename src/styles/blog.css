@@ -1,0 +1,187 @@
+.blog-banner {
+  padding: 30px 40px;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/thumbnails/022/145/333/small_2x/concept-idea-clean-energy-in-nature-lightbulb-with-solar-panel-and-wind-turbine-on-soil-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.blog-banner-write {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.blog-banner-write h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 60px;
+}
+
+.blog-banner-write h4 {
+  font-size: 20px;
+}
+
+.blog-banner-write p {
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+
+.blog-main-container {
+   padding: 100px 60px; 
+   display: flex;
+   gap: 40px;
+}
+
+.blog-m-left {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.blog-box-img {
+    width: 100%;
+    height: 420px;
+    background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog-single-1170x684.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.blog-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.by-blog {
+    display: flex;
+    gap: 17px;
+    font-size: 13px;
+   
+}
+
+.by-blog p {
+     font-family: "Rajdhani", sans-serif;
+     font-weight: 600;
+}
+
+.blog-box h1 {
+     font-family: "Rajdhani", sans-serif;
+     font-size: 35px;
+}
+
+.blog-para {
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.blog-box button {
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: #57B33E;
+    color: white;
+    border-radius: 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+
+.b-b-i-2 {
+       background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog1-1170x684.jpg");
+    background-size: cover;
+}
+
+.b-b-i-3 {
+       background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog4-150x150.jpg");
+    background-size: cover;
+}
+
+.blog-m-right {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.recent-blog-box {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+
+.recent-pic {
+ width: 80px;
+ height: 80px;
+ background: url("https://bigworldsolar.com/wp-content/uploads/2021/08/blog4-150x150.jpg");
+ background-size: cover;
+ border-radius: 10px;
+}
+
+
+.recent-write h4{
+   font-size: 16px;
+   line-height: 23px;
+}
+
+.recent-write p{
+  font-size: 13px;
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.recent-write i {
+  color: #57B33E;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+   .blog-banner {
+    padding: 30px 20px;
+    height: 500px;
+     background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+  }
+
+  .blog-main-container {
+   padding: 60px 20px; 
+   display: flex;
+   flex-direction: column;
+   gap: 70px;
+}
+
+.blog-m-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.blog-box-img {
+    width: 100%;
+    height: 250px;
+
+    border-radius: 10px;
+}
+
+.blog-m-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+}

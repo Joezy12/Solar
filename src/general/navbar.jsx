@@ -27,7 +27,7 @@ function Navbar(props) {
                    <NavLink className="link" to="../products"> <p>Products <i className="bi-chevron-down"></i></p></NavLink>
                     
                     <NavLink className="link" to="../contactus"><p>Contact Us</p></NavLink>
-                    <p>Blog</p>
+                   <NavLink className="link" to="../blog"><p>Blog</p></NavLink> 
                     <button>contact us</button>
                     <button className="lister" onClick={props.openNav}><i className="bi-list"></i></button>
                  </div>
